@@ -13,9 +13,11 @@ export const SongItem = (props) => {
           {" "}
           by <span class="singer-text">{props.singer}</span>
         </p>
-        <a target="blank" className="song-link" href={props.link}>
-          Listen Now
-        </a>
+        <p className="song-link-container">
+          <a target="blank" className="song-link" href={props.link}>
+            Listen Now 🎧
+          </a>
+        </p>
       </div>
     </div>
   );
