@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Great+Vibes&display=swap");
 
 :root {
   --primary-color: #950101;
@@ -27,6 +27,7 @@ body {
 
 .navigation {
   background-color: var(--primary-color);
+  font-family: "Great Vibes", cursive;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -69,14 +70,6 @@ body {
   font-weight: bold;
 }
 
-.song-white {
-  background-color: var(--white);
-  display: flex;
-  /* border: solid 1px black; */
-  margin: 1rem auto;
-  width: 500px;
-}
-
 .song {
   display: flex;
   align-items: center;
@@ -95,7 +88,7 @@ body {
 }
 
 .song-image {
-  height: 100px;
+  height: 106px;
   width: auto;
   margin: 1rem 1rem;
   border-radius: 6px;
@@ -140,17 +133,18 @@ body {
 .song-name {
   font-size: 1.2rem;
   font-weight: bold;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0rem;
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .movie-name {
-  margin: 0.5rem 0;
+  margin: -0.5rem 0rem 0.5rem 0rem;
   color: var(--secondary-color);
 }
 
 .singer-name {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0rem;
 }
 
 .singer-name .singer-text {
@@ -159,8 +153,19 @@ body {
 
 .song-link {
   color: var(--primary-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.song-link-container {
+  margin: 0.5rem 0rem;
 }
 
 .song-link:visited {
   color: var(--secondary-color);
+}
+
+.song-link:hover {
+  color: var(--scarlet);
+  font-weight: bold;
 }
