@@ -1,4 +1,4 @@
-# Song Recommender
+# Muggle Music Blog
 
 ## About 🤔
 This Application recommends different songs based on user's fav genre. It has different genres such as Rock, Sad and Romance. 
